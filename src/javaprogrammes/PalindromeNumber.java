@@ -14,7 +14,11 @@ public class PalindromeNumber {
 		}
 		
 		if(input==rev)
-			System.out.println("given number is palindrome"+rev);
+
+			System.out.println("given number is palindrome" + rev);
+		else
+			System.out.println("given number is not palindrome"+rev);
+
 	}
 
 }
